@@ -15,12 +15,21 @@ git log (hien thi tat ca cac commit )
 git branch (de liet ke ra cac nhanh dang o local (tren may)); neu git branch -r (se hien thi o remote)
       git branch -a (hien thi ca local va remote)
 git branch "ten nhanh moi" ( de tao ra nhanh moi )
-git checkout tennhanh  (de chuyen sang nhanh minh muon)
+git checkout tennhanh (de chuyen sang nhanh minh muon)
 git branch -m "tennhanhcu" "tennhanhmoi"  (cach doi ten nhanh)
 git branch tennhanh-d (khong the tu xoa chinh no, ma phai chuyen sang nhanh khac roi moi xoa duoc)
 git checkout -b tennhanh (de tao nhanh moi va ta dang o trong nhanh do luon)
 
 // merge
 (dang o nhanh master) get merge tennhanhmuonnhap
+
+//cach clone ve may
+git clone link
+
+// cach push len
+git add remote origin link
+
+git push -u origin tennhanh
+
 
 
