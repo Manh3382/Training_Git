@@ -1,1 +1,11 @@
 manh dep trai
+git diff (kiem tra su thay doi)
+gitk (show ra tong the)
+git commit -m "....//loi nhan "
+git add abc.txt
+git add . (add all)
+git rm --cached abc.txt -f (xoa 1 cai)
+git rm --cached . -r (xoa all)
+git status (de show)
+
+git log (hien thi tat ca cac commit )
